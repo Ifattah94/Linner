@@ -7,12 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B99FCBD0E23ED2094B5C715 /* Pods_LinnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EA37B7D12D026CDB5B59F7 /* Pods_LinnerTests.framework */; };
 		8140E6EB21F779E50038DC8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140E6EA21F779E50038DC8A /* AppDelegate.swift */; };
-		8140E6ED21F779E50038DC8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140E6EC21F779E50038DC8A /* ViewController.swift */; };
 		8140E6F021F779E50038DC8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8140E6EE21F779E50038DC8A /* Main.storyboard */; };
 		8140E6F221F779E70038DC8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8140E6F121F779E70038DC8A /* Assets.xcassets */; };
 		8140E6F521F779E70038DC8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8140E6F321F779E70038DC8A /* LaunchScreen.storyboard */; };
 		8140E70021F779E70038DC8A /* LinnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140E6FF21F779E70038DC8A /* LinnerTests.swift */; };
+		8140E71321F7810E0038DC8A /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140E71221F7810E0038DC8A /* AppError.swift */; };
+		8140E71521F7817A0038DC8A /* URLSessionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140E71421F7817A0038DC8A /* URLSessionTest.swift */; };
+		8140E71721F79B7F0038DC8A /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140E71621F79B7F0038DC8A /* APIClient.swift */; };
+		8140E71921F79CD40038DC8A /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140E71821F79CD40038DC8A /* Menu.swift */; };
+		8140E71B21F79CE20038DC8A /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140E71A21F79CE20038DC8A /* Recipe.swift */; };
+		8140E71D21F79D170038DC8A /* ModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140E71C21F79D170038DC8A /* ModelType.swift */; };
+		8140E71F21F79D390038DC8A /* UrlBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140E71E21F79D390038DC8A /* UrlBuilder.swift */; };
+		8140E72121F7A00D0038DC8A /* MenusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140E72021F7A00D0038DC8A /* MenusViewModel.swift */; };
+		8140E72321F7A0450038DC8A /* RecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140E72221F7A0450038DC8A /* RecipesViewModel.swift */; };
+		8140E72521F7A0710038DC8A /* RecipesDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140E72421F7A0710038DC8A /* RecipesDetailViewModel.swift */; };
+		8140E72721F7A1850038DC8A /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140E72621F7A1850038DC8A /* RecipeTableViewCell.swift */; };
+		8140E72921F7A1E40038DC8A /* MenusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140E72821F7A1E40038DC8A /* MenusTableViewController.swift */; };
+		8140E72B21F7A2260038DC8A /* RecipesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140E72A21F7A2260038DC8A /* RecipesTableViewController.swift */; };
+		8140E72D21F7A2620038DC8A /* RecipesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140E72C21F7A2620038DC8A /* RecipesDetailViewController.swift */; };
+		A7FF9485EDC43A08F3103AAE /* Pods_Linner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637F05D51106D1504CA65237 /* Pods_Linner.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46F0F5BE8FDA594C5EE049BD /* Pods-LinnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinnerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinnerTests/Pods-LinnerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		62EA37B7D12D026CDB5B59F7 /* Pods_LinnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		637F05D51106D1504CA65237 /* Pods_Linner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Linner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8140E6E721F779E50038DC8A /* Linner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Linner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8140E6EA21F779E50038DC8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8140E6EC21F779E50038DC8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8140E6EF21F779E50038DC8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8140E6F121F779E70038DC8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8140E6F421F779E70038DC8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +53,23 @@
 		8140E6FB21F779E70038DC8A /* LinnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8140E6FF21F779E70038DC8A /* LinnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinnerTests.swift; sourceTree = "<group>"; };
 		8140E70121F779E70038DC8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8140E71221F7810E0038DC8A /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		8140E71421F7817A0038DC8A /* URLSessionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionTest.swift; sourceTree = "<group>"; };
+		8140E71621F79B7F0038DC8A /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		8140E71821F79CD40038DC8A /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		8140E71A21F79CE20038DC8A /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		8140E71C21F79D170038DC8A /* ModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelType.swift; sourceTree = "<group>"; };
+		8140E71E21F79D390038DC8A /* UrlBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlBuilder.swift; sourceTree = "<group>"; };
+		8140E72021F7A00D0038DC8A /* MenusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenusViewModel.swift; sourceTree = "<group>"; };
+		8140E72221F7A0450038DC8A /* RecipesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewModel.swift; sourceTree = "<group>"; };
+		8140E72421F7A0710038DC8A /* RecipesDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesDetailViewModel.swift; sourceTree = "<group>"; };
+		8140E72621F7A1850038DC8A /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
+		8140E72821F7A1E40038DC8A /* MenusTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenusTableViewController.swift; sourceTree = "<group>"; };
+		8140E72A21F7A2260038DC8A /* RecipesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesTableViewController.swift; sourceTree = "<group>"; };
+		8140E72C21F7A2620038DC8A /* RecipesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesDetailViewController.swift; sourceTree = "<group>"; };
+		9206B7083D62B9FFD29CCE13 /* Pods-LinnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinnerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinnerTests/Pods-LinnerTests.release.xcconfig"; sourceTree = "<group>"; };
+		A903AA888A38EBFCFBA803C0 /* Pods-Linner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Linner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Linner/Pods-Linner.debug.xcconfig"; sourceTree = "<group>"; };
+		C2455A81ADA5EBCF2D5B04C3 /* Pods-Linner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Linner.release.xcconfig"; path = "Pods/Target Support Files/Pods-Linner/Pods-Linner.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7FF9485EDC43A08F3103AAE /* Pods_Linner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +85,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B99FCBD0E23ED2094B5C715 /* Pods_LinnerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E1F6D24B667D4613DACEDBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A903AA888A38EBFCFBA803C0 /* Pods-Linner.debug.xcconfig */,
+				C2455A81ADA5EBCF2D5B04C3 /* Pods-Linner.release.xcconfig */,
+				46F0F5BE8FDA594C5EE049BD /* Pods-LinnerTests.debug.xcconfig */,
+				9206B7083D62B9FFD29CCE13 /* Pods-LinnerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8140E6DE21F779E50038DC8A = {
 			isa = PBXGroup;
 			children = (
 				8140E6E921F779E50038DC8A /* Linner */,
 				8140E6FE21F779E70038DC8A /* LinnerTests */,
 				8140E6E821F779E50038DC8A /* Products */,
+				4E1F6D24B667D4613DACEDBC /* Pods */,
+				F1517D43B8BE84C69C0D39D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +126,15 @@
 		8140E6E921F779E50038DC8A /* Linner */ = {
 			isa = PBXGroup;
 			children = (
-				8140E6EA21F779E50038DC8A /* AppDelegate.swift */,
-				8140E6EC21F779E50038DC8A /* ViewController.swift */,
-				8140E6EE21F779E50038DC8A /* Main.storyboard */,
-				8140E6F121F779E70038DC8A /* Assets.xcassets */,
-				8140E6F321F779E70038DC8A /* LaunchScreen.storyboard */,
 				8140E6F621F779E70038DC8A /* Info.plist */,
+				8140E71121F77DBB0038DC8A /* Views */,
+				8140E71021F77DB10038DC8A /* View Models */,
+				8140E70F21F77CE40038DC8A /* View Controllers */,
+				8140E70E21F77CD30038DC8A /* Supporting Files */,
+				8140E70D21F77CBF0038DC8A /* Storyboards */,
+				8140E70C21F77CAC0038DC8A /* Networking */,
+				8140E70B21F77C9E0038DC8A /* Models */,
+				8140E70A21F77C600038DC8A /* Enums And Extensions */,
 			);
 			path = Linner;
 			sourceTree = "<group>";
@@ -96,6 +148,89 @@
 			path = LinnerTests;
 			sourceTree = "<group>";
 		};
+		8140E70A21F77C600038DC8A /* Enums And Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8140E71221F7810E0038DC8A /* AppError.swift */,
+				8140E71C21F79D170038DC8A /* ModelType.swift */,
+			);
+			path = "Enums And Extensions";
+			sourceTree = "<group>";
+		};
+		8140E70B21F77C9E0038DC8A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8140E71821F79CD40038DC8A /* Menu.swift */,
+				8140E71A21F79CE20038DC8A /* Recipe.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8140E70C21F77CAC0038DC8A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8140E71621F79B7F0038DC8A /* APIClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		8140E70D21F77CBF0038DC8A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8140E6F321F779E70038DC8A /* LaunchScreen.storyboard */,
+				8140E6EE21F779E50038DC8A /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8140E70E21F77CD30038DC8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8140E6EA21F779E50038DC8A /* AppDelegate.swift */,
+				8140E6F121F779E70038DC8A /* Assets.xcassets */,
+				8140E71421F7817A0038DC8A /* URLSessionTest.swift */,
+				8140E71E21F79D390038DC8A /* UrlBuilder.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8140E70F21F77CE40038DC8A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8140E72821F7A1E40038DC8A /* MenusTableViewController.swift */,
+				8140E72A21F7A2260038DC8A /* RecipesTableViewController.swift */,
+				8140E72C21F7A2620038DC8A /* RecipesDetailViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8140E71021F77DB10038DC8A /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				8140E72021F7A00D0038DC8A /* MenusViewModel.swift */,
+				8140E72221F7A0450038DC8A /* RecipesViewModel.swift */,
+				8140E72421F7A0710038DC8A /* RecipesDetailViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		8140E71121F77DBB0038DC8A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8140E72621F7A1850038DC8A /* RecipeTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F1517D43B8BE84C69C0D39D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				637F05D51106D1504CA65237 /* Pods_Linner.framework */,
+				62EA37B7D12D026CDB5B59F7 /* Pods_LinnerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8140E70421F779E70038DC8A /* Build configuration list for PBXNativeTarget "Linner" */;
 			buildPhases = (
+				39D8E9B5CB22AA7938AFB8BE /* [CP] Check Pods Manifest.lock */,
 				8140E6E321F779E50038DC8A /* Sources */,
 				8140E6E421F779E50038DC8A /* Frameworks */,
 				8140E6E521F779E50038DC8A /* Resources */,
+				817D7BEDD36CE239B8040000 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +257,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8140E70721F779E70038DC8A /* Build configuration list for PBXNativeTarget "LinnerTests" */;
 			buildPhases = (
+				C9A2F39DC4C46F0717392488 /* [CP] Check Pods Manifest.lock */,
 				8140E6F721F779E70038DC8A /* Sources */,
 				8140E6F821F779E70038DC8A /* Frameworks */,
 				8140E6F921F779E70038DC8A /* Resources */,
@@ -192,13 +330,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39D8E9B5CB22AA7938AFB8BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Linner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		817D7BEDD36CE239B8040000 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Linner/Pods-Linner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Linner/Pods-Linner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9A2F39DC4C46F0717392488 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinnerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8140E6E321F779E50038DC8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8140E6ED21F779E50038DC8A /* ViewController.swift in Sources */,
+				8140E71321F7810E0038DC8A /* AppError.swift in Sources */,
+				8140E71521F7817A0038DC8A /* URLSessionTest.swift in Sources */,
+				8140E72321F7A0450038DC8A /* RecipesViewModel.swift in Sources */,
+				8140E72721F7A1850038DC8A /* RecipeTableViewCell.swift in Sources */,
 				8140E6EB21F779E50038DC8A /* AppDelegate.swift in Sources */,
+				8140E72921F7A1E40038DC8A /* MenusTableViewController.swift in Sources */,
+				8140E71B21F79CE20038DC8A /* Recipe.swift in Sources */,
+				8140E71D21F79D170038DC8A /* ModelType.swift in Sources */,
+				8140E72B21F7A2260038DC8A /* RecipesTableViewController.swift in Sources */,
+				8140E72D21F7A2620038DC8A /* RecipesDetailViewController.swift in Sources */,
+				8140E71F21F79D390038DC8A /* UrlBuilder.swift in Sources */,
+				8140E71721F79B7F0038DC8A /* APIClient.swift in Sources */,
+				8140E72521F7A0710038DC8A /* RecipesDetailViewModel.swift in Sources */,
+				8140E71921F79CD40038DC8A /* Menu.swift in Sources */,
+				8140E72121F7A00D0038DC8A /* MenusViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +566,7 @@
 		};
 		8140E70521F779E70038DC8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A903AA888A38EBFCFBA803C0 /* Pods-Linner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -376,6 +585,7 @@
 		};
 		8140E70621F779E70038DC8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2455A81ADA5EBCF2D5B04C3 /* Pods-Linner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +604,7 @@
 		};
 		8140E70821F779E70038DC8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46F0F5BE8FDA594C5EE049BD /* Pods-LinnerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +626,7 @@
 		};
 		8140E70921F779E70038DC8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9206B7083D62B9FFD29CCE13 /* Pods-LinnerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
