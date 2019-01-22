@@ -27,6 +27,9 @@
 		8140E72921F7A1E40038DC8A /* MenusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140E72821F7A1E40038DC8A /* MenusTableViewController.swift */; };
 		8140E72B21F7A2260038DC8A /* RecipesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140E72A21F7A2260038DC8A /* RecipesTableViewController.swift */; };
 		8140E72D21F7A2620038DC8A /* RecipesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140E72C21F7A2620038DC8A /* RecipesDetailViewController.swift */; };
+		8140E72F21F7B5920038DC8A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140E72E21F7B5920038DC8A /* ViewModel.swift */; };
+		8140E73121F7BBA90038DC8A /* menus.json in Resources */ = {isa = PBXBuildFile; fileRef = 8140E73021F7BBA90038DC8A /* menus.json */; };
+		8140E73321F7BBC40038DC8A /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 8140E73221F7BBC40038DC8A /* recipes.json */; };
 		A7FF9485EDC43A08F3103AAE /* Pods_Linner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637F05D51106D1504CA65237 /* Pods_Linner.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +70,9 @@
 		8140E72821F7A1E40038DC8A /* MenusTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenusTableViewController.swift; sourceTree = "<group>"; };
 		8140E72A21F7A2260038DC8A /* RecipesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesTableViewController.swift; sourceTree = "<group>"; };
 		8140E72C21F7A2620038DC8A /* RecipesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesDetailViewController.swift; sourceTree = "<group>"; };
+		8140E72E21F7B5920038DC8A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		8140E73021F7BBA90038DC8A /* menus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = menus.json; sourceTree = "<group>"; };
+		8140E73221F7BBC40038DC8A /* recipes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
 		9206B7083D62B9FFD29CCE13 /* Pods-LinnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinnerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinnerTests/Pods-LinnerTests.release.xcconfig"; sourceTree = "<group>"; };
 		A903AA888A38EBFCFBA803C0 /* Pods-Linner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Linner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Linner/Pods-Linner.debug.xcconfig"; sourceTree = "<group>"; };
 		C2455A81ADA5EBCF2D5B04C3 /* Pods-Linner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Linner.release.xcconfig"; path = "Pods/Target Support Files/Pods-Linner/Pods-Linner.release.xcconfig"; sourceTree = "<group>"; };
@@ -144,6 +150,8 @@
 			children = (
 				8140E6FF21F779E70038DC8A /* LinnerTests.swift */,
 				8140E70121F779E70038DC8A /* Info.plist */,
+				8140E73021F7BBA90038DC8A /* menus.json */,
+				8140E73221F7BBC40038DC8A /* recipes.json */,
 			);
 			path = LinnerTests;
 			sourceTree = "<group>";
@@ -153,6 +161,7 @@
 			children = (
 				8140E71221F7810E0038DC8A /* AppError.swift */,
 				8140E71C21F79D170038DC8A /* ModelType.swift */,
+				8140E72E21F7B5920038DC8A /* ViewModel.swift */,
 			);
 			path = "Enums And Extensions";
 			sourceTree = "<group>";
@@ -325,6 +334,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8140E73121F7BBA90038DC8A /* menus.json in Resources */,
+				8140E73321F7BBC40038DC8A /* recipes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +409,7 @@
 				8140E72721F7A1850038DC8A /* RecipeTableViewCell.swift in Sources */,
 				8140E6EB21F779E50038DC8A /* AppDelegate.swift in Sources */,
 				8140E72921F7A1E40038DC8A /* MenusTableViewController.swift in Sources */,
+				8140E72F21F7B5920038DC8A /* ViewModel.swift in Sources */,
 				8140E71B21F79CE20038DC8A /* Recipe.swift in Sources */,
 				8140E71D21F79D170038DC8A /* ModelType.swift in Sources */,
 				8140E72B21F7A2260038DC8A /* RecipesTableViewController.swift in Sources */,
